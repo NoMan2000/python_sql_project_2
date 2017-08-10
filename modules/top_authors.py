@@ -1,5 +1,6 @@
 from modules import connection, formatter
 
+
 def get_top_authors():
     conn = connection.get_connection()
     conn.execute('''

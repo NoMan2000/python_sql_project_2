@@ -31,6 +31,7 @@ def print_errors_per_day():
     formatter.repeat_separator()
     for item in get_errors_per_day():
         print(
-            "The days that have more than 1% errors per day are '" + str(item[1]) +
+            "The days that have more than 1% errors per day are '" +
+            str(item[1]) +
             "' with a total percent of errors of '" + str(item[0]) + "'")
     formatter.repeat_separator()
